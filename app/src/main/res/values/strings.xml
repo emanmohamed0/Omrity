@@ -1,3 +1,43 @@
 <resources>
-    <string name="app_name">Omrity</string>
+
+    <string name="app_name">Labika Omra</string>
+    <string name="Company_Name">Company name</string>
+    <string name="Company_location">Company location</string>
+    <string name="phone_number">Phone number</string>
+    <string name="Company_email">Email</string>
+    <string name="registration">Registration</string>
+    <string name="save">Save</string>
+    <string name="check_in">Check-in         </string>
+    <string name="check_out">Check-out        </string>
+    <string name="assembly_time">Assmebly time</string>
+    <string name="Start_time">Start time</string>
+    <string name="bus_type">Bus type</string>
+    <string name="hotel_name">Hotel name</string>
+    <string name="hotel_type">Hotel type</string>
+    <string name="back_time">Back time</string>
+    <string name="price">Price</string>
+    <string name="name">Name</string>
+    <string name="abc_search_hint">search</string>
+    <string name="type_of_booking">Type of booking</string>
+    <string name="number_of_seats">Number of seats</string>
+    <string name="meals">Meals</string>
+    <string name="Search">Search</string>
+    <string name="Omera_Company_Touries_and_more">Omera, Company Touries and more......</string>
+
+    <string name="Enter_Distination">Enter Distination</string>
+
+
+    <string-array name="spinner_array">
+        <item>Transportation</item>
+        <item>Hotel</item>
+        <item>Transportation and Hotel</item>
+    </string-array>
+
+    <string-array name="query_suggestions">
+        <item>Android</item>
+        <item>iOS</item>
+        <item>SCALA</item>
+        <item>Ruby</item>
+        <item>JavaScript</item>
+    </string-array>
 </resources>

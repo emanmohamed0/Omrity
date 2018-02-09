@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لبيك عمرة</string>
+
+    <string name="Company_Name">اسم الشركة</string>
+    <string name="Company_location">موقع الشركة</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="Company_email">البريد الإلكتروني</string>
+    <string name="registration">تسجيل</string>
+    <string name="save">حفظ</string>
+    <string name="check_out">تاريخ المغادرة</string>
+    <string name="check_in">تاريخ الوصول</string>
+    <string name="assembly_time">وقت التجمع</string>
+    <string name="Start_time">وقت الإنطلاق</string>
+    <string name="bus_type">نوع الباص</string>
+    <string name="hotel_name">اسم الفندق</string>
+    <string name="hotel_type">نوع الفندق</string>
+    <string name="back_time">وقت العودة</string>
+    <string name="price">السعر</string>
+    <string name="abc_search_hint">بحث</string>
+    <string name="name">الاسم</string>
+    <string name="type_of_booking">نوع الحجز</string>
+    <string name="number_of_seats">عدد المقاعد</string>
+    <string name="meals">الوجبات</string>
+    <string name="Search">بحث</string>
+    <string name="Omera_Company_Touries_and_more">عمرة  , شركات حجز عمرة والمزيد ...</string>
+    <string name="Enter_Distination">ادخل الم</string>
+    <string-array name="spinner_array">
+        <item>مواصلات</item>
+        <item>سكن</item>
+        <item>مواصلات و سكن</item>
+    </string-array>
+</resources>

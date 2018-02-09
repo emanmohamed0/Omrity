@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/save"
+        android:textSize="18sp"
+        android:background="@drawable/shape_button"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/check_inTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/check_inEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@id/check_inEditText"
+        android:padding="10dp"
+        android:text="@string/check_in"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/check_inEditText"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/check_inTextView"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/check_outTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@id/check_outEditText"
+        android:layout_toRightOf="@id/check_inEditText"
+        android:padding="10dp"
+        android:text="@string/check_out"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/check_outEditText"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/check_outTextView"
+        android:layout_alignStart="@id/check_outTextView"
+        android:layout_below="@id/check_outTextView"
+        android:ems="10"
+
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/assemblyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/check_inEditText"
+        android:layout_alignStart="@id/check_inEditText"
+        android:layout_below="@id/check_inEditText"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:text="@string/assembly_time"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/assemblyEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/saveButton"
+        android:layout_alignRight="@id/saveButton"
+        android:layout_below="@id/check_inEditText"
+        android:ems="10"
+        android:inputType="time"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/StartTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/assemblyTextView"
+        android:layout_alignStart="@id/assemblyTextView"
+        android:layout_below="@+id/assemblyEditText"
+        android:layout_marginTop="17dp"
+        android:padding="10dp"
+        android:text="@string/Start_time"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/StartTimeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/assemblyEditText"
+        android:layout_alignRight="@id/assemblyEditText"
+        android:layout_alignTop="@id/StartTimeTextView"
+        android:ems="10"
+        android:inputType="time"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/busTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/StartTimeTextView"
+        android:layout_alignStart="@id/StartTimeTextView"
+        android:layout_below="@id/StartTimeEditText"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/bus_type"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/busEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/StartTimeEditText"
+        android:layout_alignStart="@id/StartTimeEditText"
+        android:layout_below="@id/StartTimeEditText"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/hotelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/busTextView"
+        android:layout_alignStart="@id/busTextView"
+        android:layout_below="@id/busEditText"
+        android:layout_marginTop="23dp"
+        android:text="@string/hotel_name"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/hotelEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/busEditText"
+        android:layout_alignRight="@id/busEditText"
+        android:layout_below="@id/busEditText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/hotelTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/hotelTextView"
+        android:layout_alignStart="@id/hotelTextView"
+        android:layout_below="@id/hotelEditText"
+        android:layout_marginTop="25dp"
+        android:text="@string/hotel_type"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/hotelTypeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/hotelTypeTextView"
+        android:layout_alignBottom="@id/hotelTypeTextView"
+        android:layout_alignLeft="@id/hotelEditText"
+        android:layout_alignStart="@id/hotelEditText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/backTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/backTimeEditText"
+        android:layout_alignBottom="@id/backTimeEditText"
+        android:layout_alignLeft="@id/hotelTypeTextView"
+        android:layout_alignStart="@id/hotelTypeTextView"
+        android:text="@string/back_time"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/backTimeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/hotelTypeEditText"
+        android:layout_alignStart="@id/hotelTypeEditText"
+        android:layout_below="@id/hotelTypeEditText"
+        android:ems="10"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/mealsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/mealsEditText"
+        android:layout_alignBottom="@id/mealsEditText"
+        android:layout_alignLeft="@id/backTimeTextView"
+        android:layout_alignStart="@id/backTimeTextView"
+        android:text="@string/meals"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/mealsEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/backTimeEditText"
+        android:layout_alignStart="@id/backTimeEditText"
+        android:layout_below="@id/backTimeEditText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/priceEditText"
+        android:layout_alignBottom="@id/priceEditText"
+        android:layout_alignEnd="@id/mealsTextView"
+        android:layout_alignRight="@id/mealsTextView"
+        android:text="@string/price"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/mealsEditText"
+        android:layout_alignStart="@id/mealsEditText"
+        android:layout_below="@id/mealsEditText"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/seatsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/saveButton"
+        android:layout_alignLeft="@id/mealsTextView"
+        android:layout_alignStart="@id/mealsTextView"
+        android:text="@string/number_of_seats" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/priceEditText"
+        android:layout_alignStart="@id/priceEditText"
+        android:layout_below="@id/priceTextView"
+        android:ems="10"
+        android:inputType="number" />
+
+
+</RelativeLayout>
