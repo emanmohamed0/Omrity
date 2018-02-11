@@ -32,7 +32,7 @@ public class SearchActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         // toolbar fancy stuff
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Cities");
+        getSupportActionBar().setTitle("Companies");
 
         recyclerViewSearch = (RecyclerView) findViewById(R.id.search_recycler);
         recyclerViewSearch.setHasFixedSize(true);
