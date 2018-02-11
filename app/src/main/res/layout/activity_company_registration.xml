@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackground"
-    tools:context="com.app.labikaomra.CompanyRegistration">
+    tools:context="com.app.emaneraky.Omrity.CompanyRegistration">
 
     <include
         android:id="@+id/regcompany_toolbar"
@@ -93,21 +93,21 @@
         android:inputType="phone" />
 
     <TextView
-        android:id="@+id/emailTextView"
+        android:id="@+id/passTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/emailEditText"
+        android:layout_alignBottom="@+id/passEditText"
         android:layout_alignLeft="@+id/RegistrationButton"
         android:layout_alignStart="@+id/RegistrationButton"
         android:padding="15dp"
-        android:text="@string/Company_email"
+        android:text="password"
         android:textSize="20dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
-        android:id="@+id/emailEditText"
+        android:id="@+id/passEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -115,21 +115,48 @@
         android:layout_below="@id/phoneEditText"
         android:layout_marginTop="18dp"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="textPassword" />
 
     <Button
         android:id="@+id/RegistrationButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/passEditText"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="152dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
+        android:layout_marginTop="120dp"
         android:background="@drawable/shape_button"
         android:text="@string/registration"
         android:textColor="@android:color/white"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="161dp"
+        android:layout_marginStart="35dp"
+        android:padding="15dp"
+        android:text="@string/Company_email"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/emailTextView"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_alignParentRight="true" />
 
 
 </RelativeLayout>
