@@ -7,8 +7,8 @@
     <string name="Company_email">Email</string>
     <string name="registration">Registration</string>
     <string name="save">Save</string>
-    <string name="check_in">Check-in         </string>
-    <string name="check_out">Check-out        </string>
+    <string name="check_in">Check-in</string>
+    <string name="check_out">Check-out</string>
     <string name="assembly_time">Assmebly time</string>
     <string name="Start_time">Start time</string>
     <string name="bus_type">Bus type</string>
@@ -22,9 +22,11 @@
     <string name="number_of_seats">Number of seats</string>
     <string name="meals">Meals</string>
     <string name="Search">Search</string>
+    <string name="type_hotel">Type_Hotel</string>
+    <string name="Number_seat">Number of seat</string>
     <string name="Omera_Company_Touries_and_more">Omera, Company Touries and more......</string>
 
-    <string name="Enter_Distination">Enter Distination</string>
+    <string name="Enter_Distination">Enter Company Name</string>
 
 
     <string-array name="spinner_array">

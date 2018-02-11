@@ -15,7 +15,9 @@
     <string name="bus_type">نوع الباص</string>
     <string name="hotel_name">اسم الفندق</string>
     <string name="hotel_type">نوع الفندق</string>
+    <string name="Number_seat">عدد المقاعد</string>
     <string name="back_time">وقت العودة</string>
+    <string name="type_hotel">نوع الفندق</string>
     <string name="price">السعر</string>
     <string name="abc_search_hint">بحث</string>
     <string name="name">الاسم</string>
@@ -24,7 +26,7 @@
     <string name="meals">الوجبات</string>
     <string name="Search">بحث</string>
     <string name="Omera_Company_Touries_and_more">عمرة  , شركات حجز عمرة والمزيد ...</string>
-    <string name="Enter_Distination">ادخل الم</string>
+    <string name="Enter_Distination">ادخل اسم الشركه</string>
     <string-array name="spinner_array">
         <item>مواصلات</item>
         <item>سكن</item>
